@@ -30,7 +30,7 @@ export const Signup = () => {
         }} placeholder="exampleemail@gmail.com" label={"Email"} />
         <InputBox onChange={(e) => {
           setPassword(e.target.value)
-        }} placeholder="123456" label={"Password"} />
+        }} placeholder="Password" label={"Password"} />
         <div className="pt-4">
           <Button onClick={async () => {
             const response = await axios.post("http://localhost:3000/api/v1/user/signup", {

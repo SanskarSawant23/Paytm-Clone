@@ -11,7 +11,7 @@ export const Signin = () => {
         <Heading label={"Sign in"} />
         <SubHeading label={"Enter your credentials to access your account"} />
         <InputBox placeholder="exampleemail@gmail.com" label={"Email"} />
-        <InputBox placeholder="123456" label={"Password"} />
+        <InputBox placeholder="Password" label={"Password"} />
         <div className="pt-4">
           <Button label={"Sign in"} />
         </div>
